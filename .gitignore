@@ -1,0 +1,20 @@
+# Local operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Generated paper readings and temporary files
+paper-readings/
+outputs/
+tmp/
+__pycache__/
+*.pyc
+
+node_modules/
+dist/
+.venv/

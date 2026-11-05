@@ -1,0 +1,22 @@
+{
+  "project": "https://github.com/xiaofengShi/paper-reading-skill",
+  "snapshot": "Local installed snapshot reused on 2026-11-01; upstream commit unavailable",
+  "files": [
+    {
+      "path": "scripts/render-reading.cjs",
+      "sha256": "088114c1dbc6fea66e817ea76c1e48bd26020f55dcec996926599a3008fc5472"
+    },
+    {
+      "path": "scripts/lib/offline-assets.cjs",
+      "sha256": "dae170f9819bfc0a69a945e0c1a1b97fd0943ef27f1b7c459203db247685e04b"
+    },
+    {
+      "path": "scripts/lib/reading-markdown.cjs",
+      "sha256": "644386091fb0c29f1a16da552880e77ff8166a157ce460078afd4eda96df3b0b"
+    },
+    {
+      "path": "assets/reading.css",
+      "sha256": "00104a77633fd32c94cd69556ed6a1f02038e5b97a5ed2b1994a4fd72ecdbd95"
+    }
+  ]
+}

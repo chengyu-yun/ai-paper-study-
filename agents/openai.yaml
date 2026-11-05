@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 论文研读"
+  short_description: "用具体例子和清晰步骤，详细讲懂 AI 论文的方法、公式与实验"
+  default_prompt: "使用 $ai-paper-study 阅读这篇论文，用通俗易懂的中文充分解释方法、关键公式和实验，生成阅读笔记与 HTML 阅读页。"

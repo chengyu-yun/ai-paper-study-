@@ -1,0 +1,21 @@
+{
+  "name": "ai-paper-study",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Understand AI papers and produce offline HTML and annotated PDFs.",
+  "scripts": {
+    "render": "node scripts/render-reading.cjs",
+    "init:reading": "node scripts/init-study.cjs",
+    "doctor": "node scripts/doctor.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "pack:skill": "node scripts/pack-skill.cjs",
+    "demo": "node scripts/demo.cjs"
+  },
+  "dependencies": {
+    "katex": "0.18.2",
+    "marked": "17.0.5"
+  },
+  "engines": {
+    "node": ">=20.18"
+  }
+}

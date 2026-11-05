@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
+<title id="title">教学例：从图像到物体计划，再到动作</title><desc id="desc">当前图像供给物体轨迹分支和动作分支。物体轨迹还向动作分支提供运动参照。绿色箭头表示运动参照，不代表真实物理因果发现。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#287065"/></marker></defs>
+<rect width="960" height="220" rx="12" fill="#f1f6fa"/>
+<g font-family="sans-serif" font-size="20" text-anchor="middle" fill="#19384c">
+<rect x="30" y="80" width="220" height="70" rx="9" fill="#dceaf5"/><text x="140" y="122">当前图像与自身状态</text>
+<rect x="360" y="25" width="240" height="70" rx="9" fill="#dbeee4"/><text x="480" y="67">预测物体未来位置</text>
+<rect x="710" y="80" width="220" height="70" rx="9" fill="#e8dff1"/><text x="820" y="122">生成机器人动作</text>
+<g fill="none" stroke="#287065" stroke-width="3" marker-end="url(#arrow)"><path d="M250 95 L360 60"/><path d="M250 140 L710 140"/><path d="M600 60 L710 95"/></g>
+<text x="658" y="45" font-size="15">运动参照</text><text x="475" y="125" font-size="15">当前观察也直接提供动作条件</text>
+<text x="480" y="198" font-size="15">教学示意：仅演示讲解结构，不对应真实论文实现</text></g></svg>
